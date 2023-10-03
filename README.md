@@ -3,8 +3,8 @@
 
 - ~~About JavaScript.~~
 - ~~Its uses and role in web development.~~
-- Set up the development environment with a code editor.
-- Write your first "Hello world" program.😍
+- ~~Set up the development environment with a code editor~~
+- ~~Write your first "Hello world" program.😍~~
  
 
 
@@ -59,6 +59,75 @@ The main difference between a “lightweight editor” and an “IDE” is that 
 ``` js
 console.log('Hello world')
 ```
+
+
+
+## Day 3 of my AJ90JS Challenge
+### Developer console
+
+- Developer tools allow us to see errors, run commands, examine variables, and much more.
+- They can be opened with F12 for most browsers on Windows. Chrome for Mac needs Cmd+Opt+J, Safari: Cmd+Opt+C (need to enable first).
+
+
+Multi-line input
+> Usually, when we put a line of code into the console, and then press Enter, it executes.
+
+> To insert multiple lines, press Shift+Enter. This way one can enter long fragments of JavaScript code.
+
+## The “script” tag
+
+- We can use a ` <script>` tag to add JavaScript code to a page
+
+
+JavaScript programs can be inserted almost anywhere into an HTML document using the `<script>` tag.
+
+``` html
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+    alert( 'Hello, world!' );
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>
+```
+
+ou can run the example by clicking the “Play” button in the right-top corner of the box above.
+
+The `<script>` tag contains JavaScript code which is automatically executed when the browser processes the tag.
+
+### Comments before and after scripts.
+
+In really ancient books and guides, you may find comments inside `<script>` tags, like this:
+
+```js
+    <script type="text/javascript"><!--
+    ...
+    //--></script>
+```
+
+### External scripts
+
+If we have a lot of JavaScript code, we can put it into a separate file.
+
+Script files are attached to HTML with the `src` attribute:
+
+
+```js
+    <script src="/path/to/script.js"></script>
+```
+
+
+
+
 
 
 
