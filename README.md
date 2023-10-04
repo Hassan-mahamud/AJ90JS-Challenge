@@ -1,136 +1,107 @@
+# Master JavaScript in 90 Days: Day-by-Day Roadmap to Success. 🚀
 
-# Days 1-5: Basics of JavaScript
+## 📅Oct 1st-Dec 30, 2023
 
-- ~~About JavaScript.~~
-- ~~Its uses and role in web development.~~
-- ~~Set up the development environment with a code editor~~
-- ~~Write your first "Hello world" program.😍~~
- 
+## Days 1-5: Basics of JavaScript
+- About JavaScript.
+- Its uses and role in web development.
+- Set up the development environment with a code editor.
+- Write your first "Hello world" program.😍
 
+## Days 6-10: Variables and Data Types
+- Variables and their declaration.
+- Let, var, and const.
+- Data types and their uses.
+- String with Template literals.
+- Operator and its precedence.
+- Variable assignment and some essential modification.
 
----
----
----
-  
-  
+## Days 11-15: Control Flow
+- Conditional statements (like if, else if, else) and their uses.
+- Loops (do while, while, and for) and their uses.
+- Practice problems with conditionals and these 3 loops.
 
+## Days 16-20: Functions
+- Functions, their syntax, and how to define and call them.
+- Parameters, arguments, and return values.
+- Different types of function including IIFE.
+- Create your own functions for some task tasks.
 
-## Day 1 of my AJ90JS Challenge
+## Days 21-24: Arrays
+- Arrays and their methods for storing and manipulating lists of data.
+- Map, filter and reduce methods.
+- Practice more problems on arrays and their methods.
 
-### basics of javascript
+## Days 25-27: Object
+- JavaScript objects and their properties.
+- Object methods and how to create or manipulate objects.
+- How to access the object properties
+- Dot VS. bracket notation
+- Set and Map methods.
 
-- ~~introduction of javascript~~
-- ~~What is JavaScript?~~
-- ~~How it works?~~
-- ~~What can in-browser JavaScript do & what can't?~~
-- ~~What makes JavaScript unique?~~
-- ~~Also I learnt that we can you use both client side and server side~~
+## Days 28-30: Object-Oriented Programming (OOP)
+- Principles of OOP in JavaScript.
+- ES6 classes
+- Constructors and prototypes.
 
+## Days 31-40: Document Object Model (DOM)
+- DOM and its role in web development.
+- How to manipulate HTML elements using JavaScript.
+- Manipulate the design of the HTML element from JavaScript.
+- Build some small projects with DOM manipulation.
 
-## Day 2 of my AJ90JS Challenge
+## Days 41-45: Events and Event Handling
+- Events in JavaScript and how to handle them.
+- Event listeners and how to respond to user interactions.
+- Build some event-based projects
 
-Set up the development environment with a code editor.
+## Days 46-50: Asynchronous Programming
+- Asynchronous programming vs. Synchronous programming.
+- Callbacks
+- Callback hell
+- Promises
+- Async/Await
+- Handling error.
 
-### Code editors
+## Days 51-52: Browser Devtools
+- Console
+- Breakpoints
 
-- There are two main types of code editors: IDEs and lightweight editors. Many people use one tool of each type.
+## Days 53-60: Working with API
+- API and explore browser APIs. 
+- Explore various 3rd party APIs.
+- How to use them.
+- Making API requests and fetching the data.
+- Build some projects using APIs.
 
-    1. IDE
-    2. Lightweight editors
+## Days 61-70: Mini Projects
+- Build projects, Here you should also follow my 50+ JavaScript projects series.
 
-### IDE
+## Days 71-75: OOP in Depth
+- Prototypes
+- Setters and getters
+- Inheritance
+- Build some projects using OOP
 
-The term IDE (Integrated Development Environment) refers to a powerful editor with many features that usually operates on a “whole project.” As the name suggests, it’s not just an editor, but a full-scale “development environment.”
+## Days 76-80: How JS works
+- JS engine
+- Event loop
+- Heap
+- Callstack
+- Callback queue
+- Execution context
+- Scope and TDZ
+- This keyword
+- Closure
 
-### Lightweight editors
+## Days 81-85: Methods in JavaScript
+- Various array methods.
+- Various string methods.
+- Date, Math, and Number methods.
+- call, bind and apply methods.
 
-Lightweight editors” are not as powerful as IDEs, but they’re fast, elegant and simple.
-
-They are mainly used to open and edit a file instantly.
-
-The main difference between a “lightweight editor” and an “IDE” is that an IDE works on a project-level, so it loads much more data on start, analyzes the project structure if needed and so on. A lightweight editor is much faster if we need only one file.
-
-
-- There are other great editors in our big world but i chose VS code **Visual Studio Code** 
-
-
-### Write your first "Hello world" program
-
-``` js
-console.log('Hello world')
-```
-
-
-
-## Day 3 of my AJ90JS Challenge
-### Developer console
-
-- Developer tools allow us to see errors, run commands, examine variables, and much more.
-- They can be opened with F12 for most browsers on Windows. Chrome for Mac needs Cmd+Opt+J, Safari: Cmd+Opt+C (need to enable first).
-
-
-Multi-line input
-> Usually, when we put a line of code into the console, and then press Enter, it executes.
-
-> To insert multiple lines, press Shift+Enter. This way one can enter long fragments of JavaScript code.
-
-## The “script” tag
-
-- We can use a ` <script>` tag to add JavaScript code to a page
-
-
-JavaScript programs can be inserted almost anywhere into an HTML document using the `<script>` tag.
-
-``` html
-<!DOCTYPE HTML>
-<html>
-
-<body>
-
-  <p>Before the script...</p>
-
-  <script>
-    alert( 'Hello, world!' );
-  </script>
-
-  <p>...After the script.</p>
-
-</body>
-
-</html>
-```
-
-ou can run the example by clicking the “Play” button in the right-top corner of the box above.
-
-The `<script>` tag contains JavaScript code which is automatically executed when the browser processes the tag.
-
-### Comments before and after scripts.
-
-In really ancient books and guides, you may find comments inside `<script>` tags, like this:
-
-```js
-    <script type="text/javascript"><!--
-    ...
-    //--></script>
-```
-
-### External scripts
-
-If we have a lot of JavaScript code, we can put it into a separate file.
-
-Script files are attached to HTML with the `src` attribute:
-
-
-```js
-    <script src="/path/to/script.js"></script>
-```
-
-
-
-
-
-
-
-
-
-
+## Days 86-90: Revised and build projects
+- Revised the above concept
+- Finally, you should build a significant project.
+- Now you are ready to pick frameworks and libraries like ReactJS.
+- Try to face the interview as well.
