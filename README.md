@@ -2,7 +2,7 @@
 
 ## 📅Oct 1st-Dec 30, 2023
 
-## Days 1-5: Basics of JavaScript
+## [Days 1-5: Basics of JavaScript](Day 1-5 Basics Of Javascript.md)
 - ~~About JavaScript.~~
 - ~~Its uses and role in web development.~~
 - ~~Set up the development environment with a code editor.~~
