@@ -8,13 +8,13 @@
 - ~~Set up the development environment with a code editor.~~
 - ~~Write your first "Hello world" program.😍~~
 
-## Days 6-10: Variables and Data Types
-- Variables and their declaration.
+## Days 6-10: [Variables and Data Types](Fundamentals)
+- [Variables](Variables.md) and their declaration.
 - Let, var, and const.
-- Data types and their uses.
+- [Data types](datatypes.md) and their uses.
 - String with Template literals.
 - Operator and its precedence.
-- Variable assignment and some essential modification.
+- [Variables](Variables.md) assignment and some essential modification.
 
 ## Days 11-15: Control Flow
 - Conditional statements (like if, else if, else) and their uses.
